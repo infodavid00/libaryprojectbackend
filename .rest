@@ -1,0 +1,25 @@
+# POST http://localhost:2932/signin
+# Content-Type: application/json
+
+# {
+#   "email" : "da40au40@gmail.com",
+#   "password" : "1234578"
+# }
+
+POST http://localhost:2932/addbook
+Content-Type: application/json
+
+{
+   "imageurl" : "https://workingwithtime",
+   "bookname" : "The Time Manipulator",
+   "bookquantity" : "10",
+   "ratings" : "5",
+   "authorname" : "ben carson",
+   "category" : "history", 
+   "shortdescription" : "a story about a witch who mainpulated someone with time and placed a curse on her."
+}
+
+
+# GET http://localhost:2932/user/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhN2E2M2RmMmYzZGY5ZGU1Y2QwZCIsImlhdCI6MTY5OTQ1ODExNywiZXhwIjoxNjk5NTQ0NTE3fQ.3bw8xCmguNpAInLWd5xp4OkLLDTLJcwNEhU-Itg6MBc
+# Content-Type: application/json
+
