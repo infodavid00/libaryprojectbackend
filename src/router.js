@@ -12,6 +12,8 @@ import returnbooks from "./controller/return.js";
 
 const router = express.Router();
 
+router.get('/', (rq,rs)=> rs.send('working perfectly!!!!'))
+
 router.post("/signup", Signup);
 router.post("/signin", Signin);
 router.get("/user/:accesstoken", Getprofile);
